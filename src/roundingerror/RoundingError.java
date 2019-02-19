@@ -28,7 +28,6 @@ public class RoundingError {
         square = Math.pow(squareR, 2);
         numDiff = square - num;
         
-        // JOptionPane.showMessageDialog(null, square );
         System.out.println("The square of the square root = " + square + "\n The round off error = " + numDiff);
         
                 
