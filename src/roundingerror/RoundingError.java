@@ -1,7 +1,7 @@
 /**
 *David Lutelmowski
 * 2/18/19
-* Area Of Triangle Program
+* Rounding Error Program
 */
 package roundingerror;
 import javax.swing.*;
