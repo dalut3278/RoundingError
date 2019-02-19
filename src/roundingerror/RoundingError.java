@@ -1,17 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+*David Lutelmowski
+* 2/18/19
+* Area Of Triangle Program
+*/
 package roundingerror;
 import javax.swing.*;
 import java.math.*;
 
-/**
- *David Lutelmowski
- * 2/18/19
- * Rounding Error Program
- */
 public class RoundingError {
 
     /**
@@ -23,7 +18,7 @@ public class RoundingError {
         String input = JOptionPane.showInputDialog("Input A Number");
         
         num = Double.parseDouble(input);
-        
+        // This is the calculation to determine the square root and the round off error
         squareR = Math.sqrt(num);
         square = Math.pow(squareR, 2);
         numDiff = square - num;
