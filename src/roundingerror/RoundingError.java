@@ -1,5 +1,5 @@
 /**
-*David Lutelmowski
+* David Lutelmowski
 * 2/18/19
 * Rounding Error Program
 */
@@ -9,9 +9,6 @@ import java.math.*;
 
 public class RoundingError {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         double num, squareR, square, numDiff;
         
